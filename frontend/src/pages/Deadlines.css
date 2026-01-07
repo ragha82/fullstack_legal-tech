@@ -1,0 +1,26 @@
+/* Reuse styles from Documents.css */
+@import './Documents.css';
+
+.row-overdue {
+  background-color: #fef2f2 !important;
+}
+
+.row-due-today {
+  background-color: #fffbeb !important;
+}
+
+.days-remaining {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 600;
+}
+
+.days-remaining.overdue {
+  color: #ef4444;
+}
+
+.days-remaining.due-today {
+  color: #f59e0b;
+}
+

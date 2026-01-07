@@ -1,0 +1,60 @@
+/* Reuse styles from Documents.css */
+@import './Documents.css';
+
+.row-overdue {
+  background-color: #fef2f2 !important;
+}
+
+.due-date {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.due-date.overdue {
+  color: #ef4444;
+  font-weight: 600;
+}
+
+.progress-bar-container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  min-width: 100px;
+}
+
+.progress-bar {
+  flex: 1;
+  height: 8px;
+  border-radius: 4px;
+  background-color: #e5e7eb;
+  transition: width 0.3s;
+}
+
+.progress-text {
+  font-size: 0.75rem;
+  color: #6b7280;
+  font-weight: 600;
+  min-width: 40px;
+}
+
+.priority-badge.priority-low {
+  background-color: #d1fae5;
+  color: #065f46;
+}
+
+.priority-badge.priority-medium {
+  background-color: #fef3c7;
+  color: #92400e;
+}
+
+.priority-badge.priority-high {
+  background-color: #fee2e2;
+  color: #991b1b;
+}
+
+.priority-badge.priority-urgent {
+  background-color: #fecaca;
+  color: #7f1d1d;
+}
+
